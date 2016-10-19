@@ -1,0 +1,197 @@
+.wrapper{
+	width: 100%;
+	background-color: #2d7f04;
+	padding-bottom: 25.7%;
+	position: relative;
+}
+.head{
+	font-size: 50px;
+	text-align: right;
+	padding: 30px;
+	padding-right: 18%;
+	text-shadow: 5px 5px 10px;
+	padding-bottom: 0px;
+}
+h4{
+	font-size: 30px;
+	text-align: center;
+	text-shadow: 5px 5px 10px;
+    font-style: oblique;
+	padding: 30px 0px;
+}
+h3{
+	font-size: 20px;
+	text-align: right;
+/*	text-shadow: 5px 5px 10px;*/
+    font-style: oblique;
+	padding-bottom: 30px;
+}
+h2{
+	font-size: 50px;
+	text-align: center;
+	padding: 10px;
+	text-shadow: 5px 5px 10px;
+}
+h1{
+	font-size: 50px;
+	text-align: center;
+	padding: 30px;
+	text-shadow: 5px 5px 10px;
+}
+header{
+	background-color: #369508;
+	padding: 15px;
+}
+.clear{
+	clear: both;
+}
+header ul li{
+	display: inline-block;
+	padding-left: 40px;
+	font-weight: bold;
+	font-family: sans-serif;
+		list-style:none;
+}
+header ul li a{
+	text-decoration: none;
+	color: #000;
+}
+header ul li a:hover{
+	text-decoration: none;
+	color: #000;
+}
+header ul{
+	float: right;
+	margin-bottom: 0px;
+}
+.posts,.posts1{
+	padding-top: 2%;
+	margin-left: 4%;
+}
+.post1{
+	margin-top: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #37aa05;
+	opacity: 0.7;
+	box-shadow: 10px 10px 30px 10px;
+}
+.postname{
+	font-size: 25px;
+	font-weight: bolder;
+}
+.username{
+	font-size: 20px;
+	font-style: italic;
+	padding-left: 10px;
+}
+.postcontent{
+	text-align:center;
+	padding-top: 10px;
+	font-weight: bolder;
+}
+.time{
+	float: right;
+	padding-top: 10px;
+	font-size: 20px;
+	font-style: italic;
+}
+.wrapperlogin{
+	width: 100%;
+	background-color: #2d7f04;
+	padding-bottom: 25.7%;
+
+}
+.login{
+	margin-left: 33%;
+	box-shadow: 10px 10px 60px 20px;
+	text-align:center;
+	background-color: #369508;
+	padding: 30px;
+	margin-top: 30px;
+	border-radius: 10px;
+}
+
+/*.login button{
+	margin-left: 20px;
+	background-color:#2d7f04; 
+	border:0px;
+	font-size: 20px;
+	font-weight: bolder;
+	font-style: oblique;
+	padding: 10px 25px;
+	margin-top: 10px;
+}*/
+.login a input,.send{
+	text-decoration:none;
+	color: #000;
+	margin-left: 20px;
+	background-color:#2d7f04; 
+	border:0px;
+	font-size: 20px;
+	font-weight: bolder;
+	font-style: oblique;
+	padding: 10px 25px !important;
+	margin-top: 10px;
+}
+.login p{
+	padding: 20px;
+}
+.login input{
+	padding: 5px;
+	border-radius: 10px;
+}
+.login p span{
+	font-size: 20px;
+	font-weight: bolder;
+	font-style: italic;
+}
+.confirmpassword{
+	padding-right: 0px !important;
+	width: 106%
+}
+.forget a{
+	text-decoration: none;
+	color: #000;
+	font-size: 15px;
+	font-style: italic;
+	font-weight: bolder;
+	background-color:#2d7f04; 
+	padding: 10px 25px 
+}
+.security{
+	font-size: 20px;
+	font-weight: bolder;
+}
+.wrappersignup{
+	width: 100%;
+	background-color: #2d7f04;
+	padding-bottom: 2.7%;
+}
+.wrapperadd{
+	width: 100%;
+	background-color: #2d7f04;
+	padding-bottom: 25.7%;
+}
+.link{
+	float:left;
+	margin-left: 20px;
+	text-align: center;
+}
+.view{
+	text-decoration:none;
+	color: #000;
+	margin-left: 20px;
+	background-color:#2d7f04; 
+	border:0px;
+	font-size: 20px;
+	font-weight: bolder;
+	font-style: oblique;
+	padding: 10px 25px !important;
+	margin-top: 10px;
+	float: right;
+}
+@media screen and (max-width: 767px) {}
+@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 992px) and (max-width: 1199px) {}
+@media screen and (min-width: 1200px) {}
