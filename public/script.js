@@ -6,8 +6,8 @@ var html=""
       for(i=0;i<data.length;i++){
           html+="<section class=\"post1 col-xs-12\"><p><span class=\"postname\">"+data[i].topic+"</span><span class=\"username\">By "+data[i].name+"</span></p><p class=\"postcontent\">"+data[i].content+"</p><p class=\"time\">"+data[i].time+"</p><p class=\"clear\"></p></section>"
       }
-               $(".posts").append(html);
-               $(".posts1").append(html);
+               $(".posts").html(html);
+               $(".posts1").html(html);
          });
 
     
@@ -25,8 +25,8 @@ var html=""
       for(i=0;i<data.length;i++){
           html+="<section class=\"post1 col-xs-12\"><p><span class=\"postname\">"+data[i].topic+"</span><span class=\"username\">By "+data[i].name+"</span></p><p class=\"postcontent\">"+data[i].content+"</p><p class=\"time\">"+data[i].time+"</p><p class=\"clear\"></p></section>"
       }
-                       $(".posts").append(html);
-               $(".posts1").append(html);
+                       $(".posts").html(html);
+               $(".posts1").html(html);
          });
 
   })

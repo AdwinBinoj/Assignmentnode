@@ -178,6 +178,10 @@ header ul{
 	margin-left: 20px;
 	text-align: center;
 }
+.link a{
+	text-decoration:none;
+	color: #000;
+}
 .view{
 	text-decoration:none;
 	color: #000;

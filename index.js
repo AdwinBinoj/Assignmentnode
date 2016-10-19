@@ -103,7 +103,7 @@ MongoClient.connect(url, function(err, db) {
     }
     else{
       if(updtdpassword==updtdpassword1){
-      db.details.update({name:newusername1},{$set : {password:updtdpassword1}})
+      data.update({'name':newusername1},{$set:{'password':updtdpassword1}})
         Res.redirect("/loginview");
       }
       else{
